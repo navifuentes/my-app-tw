@@ -1,11 +1,12 @@
 import "./App.css";
 import Navbar from "./_navbar/_navbar";
+import ItemListContainer from "./_itemListContainer/_itemListContainer";
 
 function App() {
   return (
     <>
       <Navbar/>
-      <p>HOLAA!</p>
+      <ItemListContainer greeting={"Bienvenido!"}/>
     </>
   );
 }

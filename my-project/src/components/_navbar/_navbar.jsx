@@ -1,25 +1,18 @@
 import React from "react";
+import Categorias from "./_categorias/_categorias";
+import CartWidget from "../_cartWidget/_cartWidget";
 
 const Navbar = () => {
   return (
-    <nav className="flex item-center justify-between bg-teal-500 p-6">
-        <div>
-            <span className="fill-current mr-2">🎣</span>
-            <span className="font-semibold text-xl tracking-tight">Pesca y Mosca</span>
-        </div>
-        <div className="block lg:hidden">
-            <button className="flex items-center px-3 py-2 border rounded">Menu</button>
-
-        </div>
-        <ul className="flex ">
-            <a className="border rounded px-2 text-xl" href="">Cañas</a>
-            <a className="border rounded px-2 text-xl" href="">Reels</a>
-            <a className="border rounded px-2 text-xl" href="">Moscas</a>
-        </ul>
-        <div>
-            CartWidget
-        </div>
-
+    <nav className="mx-auto flex item-center justify-between bg-teal-500 p-6 shadow-lg">
+      <div>
+        <span className="fill-current mr-2 text-5xl">🎣</span>
+        <span className="py-2 text-white font-semibold text-4xl tracking-tight">
+          La Trucha Loca
+        </span>
+      </div>
+      <Categorias />
+      <CartWidget/>
     </nav>
   );
 };
