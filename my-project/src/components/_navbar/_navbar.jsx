@@ -12,7 +12,10 @@ const Navbar = () => {
         </span>
       </div>
       <Categorias />
-      <CartWidget/>
+      <CartWidget />
+      <button className="flex lg:hidden">
+        <i className="text-4xl fa-solid fa-bars"></i>
+      </button>
     </nav>
   );
 };
