@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "idCategoria": 1,
+    "nombre": "Caña Quebec Fast",
+    "marca": "Cougar",
+    "modelo": "QBCFST",
+    "precio": 32000,
+    "stock": 2
+  },
+  {
+    "id": 2,
+    "idCategoria": 2,
+    "nombre": "Caña Quebec Medium",
+    "marca": "Cougar",
+    "modelo": "QBCMD",
+    "precio": 40000,
+    "stock": 2
+  },
+  {
+    "id": 3,
+    "idCategoria": 3,
+    "nombre": "Caña Torney",
+    "marca": "Cougar",
+    "modelo": "TRNY",
+    "precio": 36000,
+    "stock": 2
+  }
+]

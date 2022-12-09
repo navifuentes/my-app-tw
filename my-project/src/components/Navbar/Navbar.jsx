@@ -1,6 +1,6 @@
 import React from "react";
-import Categorias from "./_categorias/_categorias";
-import CartWidget from "../_cartWidget/_cartWidget";
+import Categorias from "./Categorias/Categorias";
+import CartWidget from "../CartWidget/CartWidget";
 
 const Navbar = () => {
   return (
