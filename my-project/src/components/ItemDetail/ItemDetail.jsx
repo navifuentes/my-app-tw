@@ -1,3 +1,5 @@
+import Item from "../Item/Item";
+import ItemCount from "../ItemCount/ItemCount";
 const ItemDetail = ({ producto }) => {
   console.log(producto);
   return (
@@ -14,7 +16,8 @@ const ItemDetail = ({ producto }) => {
         <div>Marca: {producto.marca}</div>
         <div>$ {producto.precio}</div>
         <div>Stock: {producto.stock}</div>
-        <button>Agregar al carrito</button>
+        <ItemCount stock={producto.stock} />
+        <button>Finalizar Compra</button>
       </div>
     </div>
   );
