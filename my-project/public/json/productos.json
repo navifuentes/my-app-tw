@@ -6,7 +6,8 @@
     "marca": "Cougar",
     "modelo": "QBCFST",
     "precio": 32000,
-    "stock": 2
+    "stock": 2,
+    "img": "QBC1.jpeg"
   },
   {
     "id": 2,
@@ -15,15 +16,17 @@
     "marca": "Cougar",
     "modelo": "QBCMD",
     "precio": 40000,
-    "stock": 2
+    "stock": 2,
+    "img": "QBC2.jpeg"
   },
   {
     "id": 3,
     "idCategoria": 3,
-    "nombre": "Caña Torney",
+    "nombre": "Caña Tourney",
     "marca": "Cougar",
     "modelo": "TRNY",
     "precio": 36000,
-    "stock": 2
+    "stock": 2,
+    "img": "TRNY.jpeg"
   }
 ]

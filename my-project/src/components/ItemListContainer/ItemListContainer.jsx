@@ -15,7 +15,7 @@ const ItemListContainer = ({ greeting }) => {
   // [propiedad] cuando se modifica un objeto interno del array
   return (
     <>
-      <div className="border flex bg-sky-200">{productos}</div>
+      <div className="border shadow-lg px-2 flex bg-sky-200">{productos}</div>
     </>
   );
 };
