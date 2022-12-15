@@ -5,7 +5,7 @@ import { consultarBDD } from "../../assets/funciones";
 const ItemListContainer = ({ greeting }) => {
   const [productos, setProductos] = useState([]);
   useEffect(() => {
-    consultarBDD().then((productList) => {
+    consultarBDD("./json/productos.json").then((productList) => {
       const cardProductos = ItemList({ productList });
       setProductos(cardProductos);
     });
